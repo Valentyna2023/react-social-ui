@@ -1,0 +1,116 @@
+.profile {
+    display: flex;
+}
+
+.profileRight {
+    flex: 3;
+}
+
+.profileRightTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profileCover {
+    position: relative;
+    height: 220px;
+    background-color: #3b5999;
+}
+
+.profileCoverImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileUserImg {
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.profileInfoName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profileInfoDesc {
+    font-size: 16px;
+    color: gray;
+}
+
+.profileCounts {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.profileCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileCountNumber {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profileCountLabel {
+    font-size: 14px;
+    color: gray;
+}
+
+.profileEditButton,
+.profileFollowButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profileFollowButton {
+    background-color: #42b72a;
+}
+
+.profileTabs {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profileTab {
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+}
+
+.profileTab:hover {
+    color: #1877f2;
+}
+
+/* Add any additional styling as needed */
